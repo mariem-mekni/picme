@@ -8,7 +8,7 @@ Jusqu'ici on a utilisé le html et css pour donner une premiere presentation
 en forme.
 
 2EME SEMAINE:
-        En se basant sur la structure du vanilla js on a pu créer un fichier 
+       En se basant sur la structure du vanilla js on a pu créer un fichier 
 javascript qui rend notre site dynamique en se déplacant d'une page a une autre.
 De plus on a fait recourt a un web service a travers la requete "post" on a 
 pu recuperer les statistiques de l'evolution des nombres des malades 
