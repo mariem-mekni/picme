@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Picme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+  <script src="scripts/picme.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-picme">
+    <div class="image">
+          <img class="w-100 h-100" src="images/image.jpg" alt="Image" />
+    </div>
+    <div class="marketing-bar">
+      <h3>Pic' me and you will never regret it</h3>
+      <h1>make your dreams come true</h1>
+    </div>
+  </div>
+</header>
+<main>
+  <nav>
+    <a href="#" class="active nav-click" id="navHome" data-body="home">Home</a>
+    <a href="#" class="nav-click" data-body="products" id="navProduct">Product</a>
+    <a href="#" class="nav-click" data-body="delevery" id="navDelevery">Delevery</a>
+    <a href="#" class="nav-click" data-body="contact" id="navContact">Contact</a>
+    <a href="#" class="nav-click" data-body="about" id="navAbout">About</a>
+  </nav>
+  <section id="home" class="active">
+    <h2>PIC'ME</h2>
+    <p>Keep some souvenirs of your past, or how will you ever prove it wasn't all a dream?</p>
+  </section>
+  <section id="contact-us" class="d-none">
+    <div class="header-contact mb-4">
+      <h4>Contact Us</h4>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <address>
+          4 rue el horrya <br/>
+          Tunisie, tunis<br/>
+          pic'me@acmecompany.com<br/>
+
+        </address>
+      </div>
+      <div class="col-md-8">
+        <form action="picme.html" method="post">
+          <div class="form-group">
+            <label for="exampleInputNom">Votre nom <span class="required">*</span></label>
+            <input type="text" required class="form-control" id="exampleInputNom" aria-describedby="nomeHelp" placeholder="Votre Nom">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre adresse e-mail <span class="required">*</span></label>
+            <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label >Message <span class="required">*</span></label>
+            <textarea class="form-control" required aria-label="With textarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="d-none" id="products">
+    <div class="row">
+      <div class="col-md-4 mb-2">
+        <div class="card">
+          <div class="card-header border-0">
+            <h5>BOX PHOTO </h5>
+          </div>
+          <div class="card-body p-2">
+            <p>keep your dearest souvenirs in a box and enjoy a whole new imaginary trip everytime you open it.</p>
+          </div>
+          <div class="card-footer p-2 border-0 bg-white">
+            <button class="btn btn-secondary">More Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-2">
+        <div class="card">
+          <div class="card-header border-0">
+            <h5>WOOD PRINTINGS</h5>
+          </div>
+          <div class="card-body p-2">
+            <p>print whatever you want on a wood support for an athentic effect.</p>
+          </div>
+          <div class="card-footer p-2 border-0 bg-white">
+            <button class="btn btn-secondary">More Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-2">
+        <div class="card">
+          <div class="card-header border-0">
+            <h5>ACCESSORIES</h5>
+          </div>
+          <div class="card-body p-2">
+            <p>try putting on a neckless or a bracelet with your lover's picture on.</p>
+          </div>
+          <div class="card-footer p-2 border-0 bg-white">
+            <button class="btn btn-secondary">More Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="d-none" id="delevery">
+    <div class="delevery">
+      <h3>We deliver you everything you need</h3>
+      <p>call us on 22222222 to make your dreams come true!.</p>
+    </div>
+  </section>
+  <section class="d-none" id="about">
+    <h2>About</h2>
+    <p>We're a group of engineers that developed this website just to make the best moments of your lives more beautiful and more real.</p>
+  </section>
+</main>
+<footer>
+  <div class="cour-v bg-white w-100 mb-3">
+    <div class="row mx-0">
+      <div class="col-md-2">
+          <span class="new-case">
+              <span class="ml-r">New Case :</span>
+              <span id="new-case">
+
+              </span>
+          </span>
+      </div>
+      <div class="col-md-2">
+         <span class="total-case">
+             <span class="ml-r">Total Case :</span>
+              <span id="total-case">
+
+              </span>
+          </span>
+      </div>
+      <div class="col-md-2">
+          <span class="new-death">
+              <span class="ml-r">New Death :</span>
+              <span id="new-death">
+
+              </span>
+          </span>
+      </div>
+      <div class="col-md-2">
+         <span class="total-death">
+              <span class="ml-r">Total Death :</span>
+              <span id="total-death">
+
+              </span>
+         </span>
+      </div>
+      <div class="col-md-2">
+         <span class="total-recovered">
+              <span class="ml-r">Recovered Case :</span>
+              <span id="total-recovered">
+
+              </span>
+         </span>
+      </div>
+      <div class="col-md-2">
+         <span class="total-number">
+              <span class="ml-r">Total Test :</span>
+              <span id="total-number">
+
+              </span>
+         </span>
+      </div>
+    </div>
+  </div>
+  &copy;&nbsp;2020&nbsp;-&nbsp;<a rel="author" href="mailto:picme@gmail.com" id="author">picme</a> - All rights reserved.
+</footer>
+</body>
+</html>
